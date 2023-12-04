@@ -1,4 +1,4 @@
-This is a premade config for mpv that includes much needed out-of-the-box configuration, such as hardware acceleration by default.
+This is a premade config for mpv that includes much needed out-of-the-box configuration (such as hardware acceleration by default).
 
 Use this config by copying the contents of directory `mpv` to `~/.config/mpv/`
 
