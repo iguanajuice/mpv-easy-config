@@ -38,7 +38,7 @@ local user_opts = {
     showonpause = true,             -- whether to disable the hide timeout on pause
     bottomhover = true,             -- if the osc should only display when hovering at the bottom
     raisesubswithosc = true,        -- whether to raise subtitles above the osc when it's shown
-    thumbnailborder = 2,            -- the width of the thumbnail border
+    thumbnailborder = 1,            -- the width of the thumbnail border
 
     -- title and chapter settings --
     showtitle = true,		        -- show title in OSC
