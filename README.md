@@ -1,4 +1,4 @@
-This is a simple pre-made config for mpv that includes much needed out-of-the-box configuration, such as:
+This is a simple pre-made config for mpv that includes much needed out-of-the-box tweaks, such as:
 
 * Use hardware acceleration when available
 * Left-click on video to pause
@@ -9,7 +9,7 @@ Use this config by copying the contents of directory `mpv` to `~/.config/mpv/`
 
 # Included scripts:
 
-https://github.com/zydezu/ModernX       - Modern UI (+ some fitting modifications)
+https://github.com/zydezu/ModernX       - Modern UI
 
 https://github.com/po5/thumbfast        - Thumbnail preview on seekbar hover
 
