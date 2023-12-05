@@ -72,7 +72,7 @@ local user_opts = {
     -- button settings --
     timetotal = false,         	    -- display total time instead of remaining time by default
     timems = false,                 -- show time as milliseconds by default
-    timefontsize = 25,              -- the font size of the time
+    timefontsize = 24,              -- the font size of the time
     jumpamount = 5,                 -- change the jump amount (in seconds by default)
     jumpiconnumber = true,          -- show different icon when jumpamount is 5, 10, or 30
     jumpmode = 'exact',             -- seek mode for jump buttons. e.g.
