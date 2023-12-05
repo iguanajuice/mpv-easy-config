@@ -9,7 +9,7 @@ Use this config by copying the contents of directory `mpv` to `~/.config/mpv/`
 
 # Included scripts:
 
-https://github.com/zydezu/ModernX       - Modern UI
+https://github.com/zydezu/ModernX       - Modern UI (+ some fitting modifications)
 
 https://github.com/po5/thumbfast        - Thumbnail preview on seekbar hover
 
