@@ -5,7 +5,7 @@ This is a simple pre-made config for mpv that includes much needed out-of-the-bo
 * Disables scroll to seek (helps to not accidentally scrub the video)
 * Arrow up/down to change volume (emulates the behavior of Youtube's player)
 
-Use this config by copying the contents of directory `mpv` to `~/.config/mpv/`
+Use this config by copying `mpv` to `~/.config/`
 
 # Included scripts:
 
