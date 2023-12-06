@@ -37,7 +37,7 @@ local user_opts = {
     scrollingSpeed = 40,            -- the speed of scrolling text in menus
     showonpause = true,             -- whether to disable the hide timeout on pause
     bottomhover = true,             -- if the osc should only display when hovering at the bottom
-    raisesubswithosc = true,        -- whether to raise subtitles above the osc when it's shown
+    raisesubswithosc = false,       -- whether to raise subtitles above the osc when it's shown
     thumbnailborder = 1,            -- the width of the thumbnail border
 
     -- title and chapter settings --
@@ -50,7 +50,7 @@ local user_opts = {
                                     -- differ (like with playing urls, audio or some media)
     font = 'mpv-osd-symbols',	    -- default osc font
                                     -- to be shown as OSC title
-    titlefontsize = 30,             -- the font size of the title text
+    titlefontsize = 32,             -- the font size of the title text
     chapterformat = 'Chapter: %s',  -- chapter print format for seekbar-hover. "no" to disable
     dateformat = "%Y-%m-%d",        -- how dates should be formatted, when read from metadata 
                                     -- (uses standard lua date formatting)
@@ -235,7 +235,7 @@ local osc_styles = {
     Tooltip = '{\\blur1\\bord0.5\\1c&HFFFFFF&\\3c&H000000&\\fs' .. user_opts.timefontsize .. '\\fn' .. user_opts.font .. '}',
     Title = '{\\blur1\\bord0.5\\1c&HFFFFFF&\\3c&H0\\fs'.. user_opts.titlefontsize ..'\\q2\\fn' .. user_opts.font .. '}',
     WindowTitle = '{\\blur1\\bord0.5\\1c&HFFFFFF&\\3c&H0\\fs'.. 24 ..'\\q2\\fn' .. user_opts.font .. '}',
-    Description = '{\\blur1\\bord0.5\\1c&HFFFFFF&\\3c&H000000&\\fs'.. 22 ..'\\q2\\fn' .. user_opts.font .. '}',
+    Description = '{\\blur1\\bord0.5\\1c&HFFFFFF&\\3c&H000000&\\fs'.. 24 ..'\\q2\\fn' .. user_opts.font .. '}',
     WinCtrl = '{\\blur1\\bord0.5\\1c&HFFFFFF&\\3c&H0\\fs20\\fnmpv-osd-symbols}',
     elementDown = '{\\1c&H999999&}',
     elementHover = "{\\blur5\\2c&HFFFFFF&}",
