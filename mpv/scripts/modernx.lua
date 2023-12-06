@@ -31,7 +31,7 @@ local user_opts = {
     scaleforcedwindow = 1.0,        -- scaling when rendered on a forced window
 
     -- interface settings --
-    hidetimeout = 5000,             -- duration in ms until OSC hides if no mouse movement
+    hidetimeout = 2000,             -- duration in ms until OSC hides if no mouse movement
     fadeduration = 150,             -- duration of fade out in ms, 0 = no fade
     minmousemove = 0,               -- amount of pixels the mouse has to move for OSC to show
     scrollingSpeed = 40,            -- the speed of scrolling text in menus
