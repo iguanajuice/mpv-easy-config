@@ -1,4 +1,4 @@
-This is a simple pre-made config for mpv that includes much needed out-of-the-box tweaks, such as:
+This is a simple pre-made config for mpv that includes a few useful scripts plus much needed out-of-the-box tweaks, such as:
 
 * Use hardware acceleration when available
 * Left-click on video to pause
