@@ -1705,7 +1705,7 @@ layouts = function ()
     local outeroffset = (showskip and 0 or 100) + (showjump and 0 or 100)
 
     -- Title
-    geo = {x = 25, y = refY - 122 + (((state.localDescription ~= nil or state.isWebVideo) and user_opts.showdescription) and -20 or 0), an = 1, w = osc_geo.w - 50, h = 35}
+    geo = {x = 25, y = refY - 133 + (((state.localDescription ~= nil or state.isWebVideo) and user_opts.showdescription) and -20 or 0), an = 1, w = osc_geo.w - 50, h = 35}
     lo = add_layout("title")
     lo.geometry = geo
     lo.style = string.format("%s{\\clip(0,%f,%f,%f)}", osc_styles.Title,
@@ -1715,7 +1715,7 @@ layouts = function ()
 
     -- Description
     if (state.localDescription ~= nil or state.isWebVideo) and user_opts.showdescription then
-        geo = {x = 25, y = refY - 122, an = 1, w = osc_geo.w, h = 19}
+        geo = {x = 25, y = refY - 133, an = 1, w = osc_geo.w, h = 19}
         lo = add_layout("description")
         lo.geometry = geo
         lo.style = osc_styles.Description
