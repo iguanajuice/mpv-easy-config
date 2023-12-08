@@ -51,7 +51,7 @@ local user_opts = {
     font = 'mpv-osd-symbols',	    -- default osc font
                                     -- to be shown as OSC title
     titlefontsize = 32,             -- the font size of the title text
-    chapterformat = 'Chapter: %s',  -- chapter print format for seekbar-hover. "no" to disable
+    chapterformat = '%s',           -- chapter print format for seekbar-hover. "no" to disable
     dateformat = "%Y-%m-%d",        -- how dates should be formatted, when read from metadata 
                                     -- (uses standard lua date formatting)
     osc_color = '000000',           -- accent of the OSC and the title bar
@@ -1933,12 +1933,6 @@ function osc_init()
         title = title:gsub("\\n", " "):gsub("\\$", ""):gsub("{","\\{")
         return not (title == "") and title or "mpv video"
     end
-    ne.eventresponder["mbtn_left_up"] = function ()
-        local title = mp.get_property_osd("media-title")
-        show_message(title)
-    end
-    ne.eventresponder["mbtn_right_up"] =
-        function () show_message(mp.get_property_osd("filename")) end
 
     -- description
     ne = new_element('description', 'button')
